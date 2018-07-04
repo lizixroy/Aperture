@@ -13,6 +13,7 @@
 		B047B0CB20ED7BE80045A5BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B047B0CA20ED7BE80045A5BC /* Assets.xcassets */; };
 		B047B0CE20ED7BE80045A5BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B047B0CC20ED7BE80045A5BC /* LaunchScreen.storyboard */; };
 		B047B0D920ED7BE80045A5BC /* ApertureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B047B0D820ED7BE80045A5BC /* ApertureTests.swift */; };
+		B047B0E420ED7DEA0045A5BC /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = B047B0E320ED7DEA0045A5BC /* Intents.intentdefinition */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B047B0D420ED7BE80045A5BC /* ApertureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApertureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B047B0D820ED7BE80045A5BC /* ApertureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApertureTests.swift; sourceTree = "<group>"; };
 		B047B0DA20ED7BE80045A5BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B047B0E320ED7DEA0045A5BC /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				B047B0CA20ED7BE80045A5BC /* Assets.xcassets */,
 				B047B0CC20ED7BE80045A5BC /* LaunchScreen.storyboard */,
 				B047B0CF20ED7BE80045A5BC /* Info.plist */,
+				B047B0E320ED7DEA0045A5BC /* Intents.intentdefinition */,
 			);
 			path = Aperture;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B047B0E420ED7DEA0045A5BC /* Intents.intentdefinition in Sources */,
 				B047B0C620ED7BE70045A5BC /* ViewController.swift in Sources */,
 				B047B0C420ED7BE70045A5BC /* AppDelegate.swift in Sources */,
 			);
